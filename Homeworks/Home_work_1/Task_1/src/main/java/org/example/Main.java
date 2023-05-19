@@ -1,9 +1,8 @@
-//1) Вычислить n-ое треугольного число (сумма чисел от 1 до n), n! (произведение чисел от 1 до n)
+package org.example;
 
-package Homeworks.Homework_1;
 import java.util.Scanner;
 
-public class Task_1 {
+public class Main {
     public static void main(String[] args) {
         System.out.print("Input n: ");
         Scanner scanner = new Scanner(System.in);
@@ -25,7 +24,7 @@ public class Task_1 {
         return sum;
     }
     public static long calcFactorial(int n){
-        long factorial = 0;
+        long factorial = 1;
         for(int i = 1; i <= n; i++){
             factorial *= i;
         }
