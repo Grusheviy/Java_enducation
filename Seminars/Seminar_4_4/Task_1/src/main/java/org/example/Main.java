@@ -52,7 +52,6 @@ public class Main {
 //        System.out.println(id);
 
         // Сортировка по полу и возрасту
-//        Сортировка по полу и возрасту
         for (int i = 0; i < f_name.size() - 1; i++) {
             int index = i;
             for (int j = i + 1; j < f_name.size(); j++) {
